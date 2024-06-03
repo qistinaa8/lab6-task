@@ -7,7 +7,7 @@ import 'profile_page.dart';
 void main() {
   runApp(const MyApp());
 }
-//c
+
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
@@ -136,7 +136,7 @@ class HomeScreenF1 extends StatelessWidget {
           child: Center(
             child: Container(
               width: 400,
-              height: 600,
+              height: 550,
               decoration: BoxDecoration(
                 boxShadow: [
                   BoxShadow(
@@ -200,7 +200,7 @@ class HomeScreenF2 extends StatelessWidget {
               decoration: BoxDecoration(
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.black.withOpacity(0.1),
+                    color: Colors.black.withOpacity(0.2),
                     spreadRadius: 3,
                     blurRadius: 5,
                     offset: const Offset(0, 3), // changes position of shadow

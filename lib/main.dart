@@ -15,6 +15,8 @@ class MyApp extends StatefulWidget {
   State<MyApp> createState() => _MyAppState();
 }
 
+
+// if you can see this that means it's working.
 class _MyAppState extends State<MyApp> {
   String selectedFactory = 'Factory 2';
   int currentIndex = 1; // Set default to home screen
@@ -121,6 +123,7 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
+
 
 class HomeScreenF1 extends StatelessWidget {
   final String selectedFactory;
